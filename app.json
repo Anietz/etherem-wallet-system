@@ -1,0 +1,6 @@
+{
+  "name": "ClassifyTv Node.js",
+  "description": "An API uses Typescript Express, Mongoose, Eslint, Prettier and Husky",
+  "repository": "https://github.com/xprimate/classifytv/tree/master",
+  "keywords": ["node", "express", "typescript","Mongoose"]
+}
