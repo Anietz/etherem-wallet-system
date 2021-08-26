@@ -56,8 +56,7 @@ export default class Wallet extends EventEmitter implements IWalletClass {
           this.provider = this.initProvider(config.MORALIS_MAINNET_PROVIDER);
           this.socketProvider = this.initSocketProvider(config.MORALIS_MAINNET_PROVIDER_WEB_SOCKET);
         } else {
-          //this.provider = this.initProvider(`https://mainnet.infura.io/v3/${providerId}`);
-          this.provider = this.initProvider(config.MORALIS_MAINNET_PROVIDER);
+          this.provider = this.initProvider(`https://mainnet.infura.io/v3/${providerId}`);
           this.socketProvider = this.initSocketProvider(`wss://mainnet.infura.io/ws/v3/${websocketId}`);
         }
 
